@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pesos_a_Dolares.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Image Source="pesosdolares.jpg" WidthRequest="300"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">Ingrese la cantidad de pesos que desea convertir a dolares</Label>
+            <Entry x:Name="Pesos" Placeholder="Pesos a dólares" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Entry>
+            <Button x:Name="Button" Text="Calcular Cambio" Clicked="ButtonClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">La cantidad convertida de pesos a dólares es:</Label>
+            <Label x:Name="Dolares"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
